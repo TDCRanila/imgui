@@ -2960,7 +2960,7 @@ namespace ImGui
 
 float RoundScalarWithFormatFloat(const char* format, ImGuiDataType data_type, float v)
 {
-    return RoundScalarWithFormatT<float, float>(format, data_type, v);
+    return RoundScalarWithFormatT<float>(format, data_type, v);
 }
 
 float SliderCalcRatioFromValueFloat(ImGuiDataType data_type, float v, float v_min, float v_max, float power, float linear_zero_pos)
